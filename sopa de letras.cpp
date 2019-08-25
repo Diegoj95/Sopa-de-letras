@@ -33,8 +33,8 @@ srand(time(NULL));
 printf("*****BIENVENID@ AL JUEGO DE LA SOPA DE LETRAS*****\n\nPara comenzar es necesario ingresar algunos datos...\n\n");
 printf("1-Introduzca el tamanho de la sopa(matriz simetrica): ");  //tamaño de la matriz
 scanf("%d", &n);
-while(n>=41)
-{
+
+while(n>=41){
 	printf("\nPor motivos de espacio este juego no permite un tamanho mayor a 40\n");
 	printf("\n1-Introduzca el tamanho de la sopa(matriz simetrica): ");  //tamaño de la matriz
     scanf("%d", &n);
