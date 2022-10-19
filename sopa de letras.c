@@ -12,7 +12,7 @@ int revisar(char mpalabras[100][100], char palabras[30], int largo, int k,int *n
 
 main()
 {
-int n,k;                //Entradas: tamaño de la matriz, cantidad de palabras
+int n,k;                //Entradas: tamaÃ±o de la matriz, cantidad de palabras
 int i,j,p,q,a,c;
 int x,y;
 int largo;
@@ -31,12 +31,12 @@ char b='a';
 
 srand(time(NULL));
 printf("*****BIENVENID@ AL JUEGO DE LA SOPA DE LETRAS*****\n\nPara comenzar es necesario ingresar algunos datos...\n\n");
-printf("1-Introduzca el tamanho de la sopa(matriz simetrica): ");  //tamaño de la matriz
+printf("1-Introduzca el tamanho de la sopa(matriz simetrica): ");  //tamaÃ±o de la matriz
 scanf("%d", &n);
 
 while(n>=41){
 	printf("\nPor motivos de espacio este juego no permite un tamanho mayor a 40\n");
-	printf("\n1-Introduzca el tamanho de la sopa(matriz simetrica): ");  //tamaño de la matriz
+	printf("\n1-Introduzca el tamanho de la sopa(matriz simetrica): ");  //tamaÃ±o de la matriz
     scanf("%d", &n);
 }
 printf("\n2-Introduzca el numero de palabras: ");              //cantidad de palabras
